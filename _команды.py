@@ -12,6 +12,11 @@ pip list
 
 # Инициалиазция poetry в проекте (в папке)
 poetry init
+poetry env use python3.13 # установка версии питона. Будет выдана ссылка на виртуальное окружение.
+# этой ссылкой на виртуальное окружение надо заменить окружение (справа внизу)
+# https://habr.com/ru/articles/740376/
+
+
 
 
 poetry add fastapi
@@ -30,7 +35,7 @@ git push -u origin main
 git push
 git push origin +master
 
-git remote -v # просмотр удаленных репозиториев
+git remote -v # просмотр удаленных репозиториев (должно быть 2 стрчки fetch и push)
 
 git branch -m новое_имя_ветки # переименование ветки
 
