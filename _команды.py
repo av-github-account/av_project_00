@@ -26,10 +26,6 @@ git init                # инициализация репозитория
 git remote add origin [url]  # добавление удаленного репозитория
 
 
-
-
-
-
 git push -u origin main
 git push
 git push origin +master
@@ -38,5 +34,4 @@ git remote -v # просмотр удаленных репозиториев
 
 git branch -m новое_имя_ветки # переименование ветки
 
-def main():
-    print("Hello, world!")
+
